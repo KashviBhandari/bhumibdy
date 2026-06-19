@@ -264,7 +264,7 @@ if st.button("✨ Open Your Surprise ✨"):
 
     st.header("Babyyyy cakeee 👄")
 
-    img_path = "C:\\Users\\HP\\Desktop\\file\\imag2.png"
+    img_path = "imag2.png"
 
     if os.path.exists(img_path):
         st.image(img_path, width=300)
